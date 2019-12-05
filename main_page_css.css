@@ -42,6 +42,10 @@ h1 {
     background-color:#f2aa4cff;
 }
 
+.header ul li {
+    font-size: 30px;
+}
+
 .main_page {
     color:#f2aa4cff;
     padding: 0px;
@@ -56,15 +60,6 @@ h1 {
     color:#f2aa4cff;
     text-align: left;
     margin: 30px;
-    
-}
-
-.first_paragraph_main_page {
-    
-}
-
-.second_paragraph_main_page {
-   
 }
 
 .big_a {
@@ -75,3 +70,13 @@ h1 {
 strong {
     font-size: 25px;
 }
+
+.how_to_protect_yourself {
+    background: linear-gradient(to bottom, #101820ff, transparent) no-repeat;
+    color:#f2aa4cff;
+}
+
+.how_to_protect_yourself li {
+    background: linear-gradient(to right, #101820ff, transparent) no-repeat;
+}
+
