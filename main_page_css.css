@@ -60,6 +60,7 @@ h1 {
     color:#f2aa4cff;
     text-align: left;
     margin: 30px;
+    background: linear-gradient(to bottom, #101820ff, transparent) no-repeat;
 }
 
 .big_a {
@@ -68,15 +69,33 @@ h1 {
 }
 
 strong {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .how_to_protect_yourself {
     background: linear-gradient(to bottom, #101820ff, transparent) no-repeat;
     color:#f2aa4cff;
+    padding: 0px;
+    margin: 0px;
 }
 
 .how_to_protect_yourself li {
     background: linear-gradient(to right, #101820ff, transparent) no-repeat;
+    padding: 10px;
 }
 
+.how_to_protect_yourself strong {
+    text-decoration: underline;
+}
+.what_you_need_to_know li {
+    background: linear-gradient(to right, #101820ff, transparent) no-repeat;
+    padding: 10px;
+}
+
+.what_you_need_to_know h2 {
+    font-size: 35px;
+}
+
+.what_you_need_to_know strong {
+    text-decoration: underline;
+}
