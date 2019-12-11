@@ -40,7 +40,7 @@ h1 {
 }
 
 .header li:hover {
-    background-color:#f2aa4cff;
+    background:#f2aa4cff;
 }
 
 .header ul li {
@@ -106,65 +106,17 @@ h1 {
     background: linear-gradient(to bottom, #101820ff, transparent) no-repeat;
 }
 
-.types_of_hackers table {
-	padding: 5px;
-	font-size: 15px
-}
-
-.dropdown_menu_hackers ul a {
-
-	display: inline;
-	margin: 0px;
-	padding: 0px;
-    text-decoration: none;
-    color: #101820ff;
-}
-
-.dropdown_menu_hackers ul li {
-	display: inline;
-}
-
-.dropdown_menu_hackers ul li:hover ul {
-    display: block;
-    margin: 0px;
-    padding: 0px;
-}
-
-.dropdown_menu_hackers ul li ul {
-	position: center;
-	width: 200px;
-	display: none;
-}
-
-.dropdown_menu_hackers ul li ul li {
-	background: #f2aa4cff;
-	display: block;
-}
-
-.dropdown_menu_hackers ul li ul li a {
-	display: inline !important;
-	text-decoration: none;
-}
-
-.dropdown_menu_hackers ul li ul li a:hover {
-    color: #f2aa4cff;
-}
-
-.dropdown_menu_hackers ul li ul li:hover {
-	background: #101820ff;
-}
-
-.dropdown_menu_hackers {
-	font-size: 30px;
-	padding: 1px;
-    background: #f2aa4cff;
-
-}
-
-.dropdown_menu_hackers a:visited {
-	color: #101820ff;
+.header ul li {
+    display: inline;
 }
 
 .header ul li ul {
     display: none;
+    position: center;
+}
+
+.header ul li:hover ul  {
+    display: block;
+    padding: 0px;
+    margin: 0px;
 }
