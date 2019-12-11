@@ -1,6 +1,7 @@
 body {
     background-image: url(1920x1080_mainpage_background_image.jpg);
-    margin: 0px
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -111,23 +112,22 @@ h1 {
 }
 
 .dropdown_menu_hackers ul a {
+
 	display: inline;
 	margin: 0px;
 	padding: 0px;
-	height: 100%;
-	text-decoration: none;
+    text-decoration: none;
+    color: #101820ff;
 }
 
 .dropdown_menu_hackers ul li {
-	display: inline-block;
-}
-
-.dropdown_menu_hackers ul li:hover {
-	padding: 0px;
+	display: inline;
 }
 
 .dropdown_menu_hackers ul li:hover ul {
-	display: block;
+    display: block;
+    margin: 0px;
+    padding: 0px;
 }
 
 .dropdown_menu_hackers ul li ul {
@@ -138,26 +138,33 @@ h1 {
 
 .dropdown_menu_hackers ul li ul li {
 	background: #f2aa4cff;
-	display: block;	
+	display: block;
 }
 
 .dropdown_menu_hackers ul li ul li a {
 	display: inline !important;
 	text-decoration: none;
-	color:;
+}
+
+.dropdown_menu_hackers ul li ul li a:hover {
+    color: #f2aa4cff;
 }
 
 .dropdown_menu_hackers ul li ul li:hover {
 	background: #101820ff;
-	color: #f2aa4cff;
 }
 
 .dropdown_menu_hackers {
 	font-size: 30px;
-	padding: 5px;
-	background: #f2aa4cff;
+	padding: 1px;
+    background: #f2aa4cff;
+
 }
 
 .dropdown_menu_hackers a:visited {
 	color: #101820ff;
+}
+
+.header ul li ul {
+    display: none;
 }
