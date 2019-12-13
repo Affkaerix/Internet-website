@@ -40,18 +40,19 @@ h1 {
 
 .main_page {
     color:#f2aa4cff;
-    padding: 0px;
-    margin: 5px;
     background: linear-gradient(#101820ff, transparent) no-repeat;
     font-size: 20px;
     text-align: center;
+}
 
+.main_page p {
+    margin: 37px;
+    padding: 3px;
 }
 
 .what_you_need_to_know {
     color:#f2aa4cff;
     text-align: left;
-    margin: 30px;
     background: linear-gradient(to bottom, #101820ff, transparent) no-repeat;
 }
 
@@ -88,6 +89,11 @@ h1 {
     font-size: 35px;
 }
 
+.what_you_need_to_know p {
+    margin: 20px;
+    padding: 3px;       
+}
+
 .what_you_need_to_know strong {
     text-decoration: underline;
 }
@@ -120,8 +126,52 @@ h1 {
 .white_hat_hacker h1 {
     color: #f2aa4cff;
     font-size: 35px;
+    text-decoration: underline;
 }
 
 .white_hat_hacker {
     text-align: center;
+    color: #f2aa4cff;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.types_of_hackers h2 {
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+.types_of_hackers p {
+    margin: 20px;
+    padding: 3px;
+}
+
+.grey_hat h1 {
+    color: #f2aa4cff;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.grey_hat {
+    color: #f2aa4cff;
+    background: linear-gradient (to right, #101820ff, transparent) no-repeat;
+    margin: 20px;
+    text-align: center;
+}
+
+.grey_hat p {
+    font-size: 20px;
+    padding: 3px;
+}
+
+.black_hat {
+    color: #f2aa4cff;
+    background: linear-gradient (to right, #101820ff, transparent) no-repeat;
+    margin: 20px;
+    text-align: center;
+}
+
+.black_hat p {
+    font-size: 20px;
+    padding: 3px;
 }
